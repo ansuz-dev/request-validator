@@ -1,0 +1,44 @@
+{
+  "name": "@ansuz-dev/request-validator",
+  "version": "0.0.1",
+  "description": "Json schema validator for Express request",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "express",
+    "request",
+    "validation",
+    "validitor"
+  ],
+  "author": "Ansuz Development <ansuzdev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^6.10.0"
+  },
+  "devDependencies": {
+    "@ansuz-dev/async-router": "0.0.3",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.2.1",
+    "express": "^4.16.4",
+    "mocha": "^6.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansuz-dev/request-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ansuz-dev/request-validator.git/issues",
+    "email": "ansuzdev@gmail.com"
+  },
+  "engines": {
+    "node": ">=10.10.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

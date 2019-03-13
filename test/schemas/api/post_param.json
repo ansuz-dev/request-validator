@@ -1,0 +1,30 @@
+{
+  "$id": "/api/post/param",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "userId": {
+          "$ref": "/core#/definitions/uint"
+        },
+        "postId": {
+          "$ref": "/core#/definitions/uint"
+        }
+      },
+      "additionProperties": false,
+      "required": [ "userId", "postId" ]
+    },
+    "params": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "/core#/definitions/uint"
+        }
+      },
+      "additionProperties": false,
+      "required": [ "id" ]
+    }
+  },
+  "required": [ "body", "params" ]
+}

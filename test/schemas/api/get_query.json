@@ -1,0 +1,20 @@
+{
+  "$id": "/api/get/query",
+  "type": "object",
+  "properties": {
+    "query": {
+      "type": "object",
+      "properties": {
+        "ids": {
+          "type": "array",
+          "items": {
+            "$ref": "/core#/definitions/uint"
+          }
+        }
+      },
+      "additionProperties": false,
+      "required": [ "ids" ]
+    }
+  },
+  "required": [ "query" ]
+}

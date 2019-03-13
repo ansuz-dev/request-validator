@@ -1,0 +1,17 @@
+{
+  "$id": "/api/get/param",
+  "type": "object",
+  "properties": {
+    "params": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "/core#/definitions/uint"
+        }
+      },
+      "additionProperties": false,
+      "required": [ "id" ]
+    }
+  },
+  "required": [ "params" ]
+}

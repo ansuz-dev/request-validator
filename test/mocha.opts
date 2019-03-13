@@ -1,0 +1,6 @@
+--reporter spec
+--ui bdd
+--exit
+--colors
+--full-trace
+--timeout 15000

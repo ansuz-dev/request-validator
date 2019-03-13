@@ -1,0 +1,20 @@
+{
+  "$id": "/test/schema/1",
+  "type": "object",
+  "properties": {
+    "body": {
+      "type": "object",
+      "properties": {
+        "userId": {
+          "$ref": "/core#/definitions/int"
+        },
+        "postId": {
+          "$ref": "/core#/definitions/int"
+        }
+      },
+      "additionProperties": false,
+      "required": [ "userId", "postId" ]
+    }
+  },
+  "required": [ "body" ]
+}
