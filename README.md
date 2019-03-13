@@ -2,6 +2,10 @@
 
 A validator using [ajv](https://www.npmjs.com/package/ajv) to validate input in Express request.
 
+[![npm](https://img.shields.io/npm/v/@ansuz-dev/request-validator.svg)](https://www.npmjs.com/package/@ansuz-dev/request-validator)
+[![npm downloads](https://img.shields.io/npm/dm/@ansuz-dev/request-validator.svg)](https://www.npmjs.com/package/@ansuz-dev/request-validator)
+[![Dependency Status](https://david-dm.org/ansuz-dev/request-validator.svg)](https://david-dm.org/ansuz-dev/request-validator)
+
 ## __Installation__
 
 Using npm:
@@ -170,7 +174,7 @@ and for asynchronous version:
 
 ### Example
 
-Check on [Github](https://github.com/ansuz-dev/request-validator/test/app.js).
+Check on [Github](https://github.com/ansuz-dev/request-validator/blob/master/test/app.js).
 
 ## License
 
